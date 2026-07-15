@@ -53,5 +53,6 @@ same connection.
 - Social alerts for trading bots: https://github.com/SisoSol/social-trading-signals
 - Twitter/X client: https://github.com/SisoSol/twitter-websocket-client
 - All six platforms: https://github.com/SisoSol/social-monitor-examples
+- Best crypto Twitter monitoring tools (roundup): https://1322.io/blog/best-crypto-twitter-monitoring-tools
 
 MIT licensed.
