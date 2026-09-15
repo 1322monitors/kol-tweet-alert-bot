@@ -7,18 +7,11 @@
 </p>
 <p align="center"><sub>▶ The <a href="https://1322.io">1322</a> dashboard these clients stream from — API keys, WebSocket &amp; REST endpoints, live feed.</sub></p>
 
-A real-time **crypto KOL tweet alert bot** in ~50 lines of Python. Watches the
-X (Twitter) accounts you track over a **WebSocket**, detects contract addresses
-and tickers the instant a tweet lands, and fires a **Telegram alert in under a
-second**.
+A real-time crypto KOL tweet alert bot in about 50 lines of Python: it watches the X (Twitter) accounts you track over a WebSocket, detects contract addresses and tickers the instant a tweet lands, and fires a Telegram alert in under a second. It is a crypto Twitter monitoring tool for memecoin entries and KOL-driven trades, built on the 1322 feed (X typically 150-250ms; Binance Square on the same socket, sub-second). Maintained by the 1322 team; the consumer pattern is generic.
 
 Polling the X API v2 caps your worst-case latency at the poll interval and burns
 read quota. This bot holds a persistent WebSocket and reacts the moment a tracked
 KOL posts, which is the whole point for memecoin entries and KOL-driven trades.
-
-It runs against the [1322](https://1322.io/use-cases/crypto-kol-tracking) feed
-(X posts in ~150-250ms; Binance Square on the same socket with coin pairs
-parsed). The consumer pattern is generic.
 
 - Crypto KOL tracking: https://1322.io/use-cases/crypto-kol-tracking
 - Full walkthrough: https://1322.io/blog/kol-tweet-alert-bot-python
@@ -51,8 +44,9 @@ same connection.
 ## Related
 
 - Social alerts for trading bots: https://github.com/SisoSol/social-trading-signals
+- Async Python client for the 1322 API: https://github.com/SisoSol/1322-python
 - Twitter/X client: https://github.com/SisoSol/twitter-websocket-client
-- All six platforms: https://github.com/SisoSol/social-monitor-examples
+- All seven platforms: https://github.com/SisoSol/social-monitor-examples
 - Best crypto Twitter monitoring tools (roundup): https://1322.io/blog/best-crypto-twitter-monitoring-tools
 
 MIT licensed.
