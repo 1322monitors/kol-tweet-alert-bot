@@ -1,6 +1,6 @@
 # kol-tweet-alert-bot
 
-[![License: MIT](https://img.shields.io/github/license/SisoSol/kol-tweet-alert-bot?style=flat-square&color=blue)](LICENSE) [![Last commit](https://img.shields.io/github/last-commit/SisoSol/kol-tweet-alert-bot?style=flat-square)](https://github.com/SisoSol/kol-tweet-alert-bot/commits) [![CI](https://github.com/SisoSol/kol-tweet-alert-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/SisoSol/kol-tweet-alert-bot/actions/workflows/ci.yml) [![Built for 1322.io](https://img.shields.io/badge/built%20for-1322.io-3b82f6?style=flat-square)](https://1322.io) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/SisoSol/kol-tweet-alert-bot/pulls)
+[![License: MIT](https://img.shields.io/github/license/1322monitors/kol-tweet-alert-bot?style=flat-square&color=blue)](LICENSE) [![Last commit](https://img.shields.io/github/last-commit/1322monitors/kol-tweet-alert-bot?style=flat-square)](https://github.com/1322monitors/kol-tweet-alert-bot/commits) [![CI](https://github.com/1322monitors/kol-tweet-alert-bot/actions/workflows/ci.yml/badge.svg)](https://github.com/1322monitors/kol-tweet-alert-bot/actions/workflows/ci.yml) [![Built for 1322.io](https://img.shields.io/badge/built%20for-1322.io-3b82f6?style=flat-square)](https://1322.io) [![PRs welcome](https://img.shields.io/badge/PRs-welcome-brightgreen?style=flat-square)](https://github.com/1322monitors/kol-tweet-alert-bot/pulls)
 
 <p align="center">
   <a href="https://1322.io"><img src="assets/demo.gif" alt="1322 real-time feed demo" width="680"></a>
@@ -43,10 +43,10 @@ same connection.
 
 ## Related
 
-- Social alerts for trading bots: https://github.com/SisoSol/social-trading-signals
-- Async Python client for the 1322 API: https://github.com/SisoSol/1322-python
-- Twitter/X client: https://github.com/SisoSol/twitter-websocket-client
-- All seven platforms: https://github.com/SisoSol/social-monitor-examples
+- Social alerts for trading bots: https://github.com/1322monitors/social-trading-signals
+- Async Python client for the 1322 API: https://github.com/1322monitors/1322-python
+- Twitter/X client: https://github.com/1322monitors/twitter-websocket-client
+- All seven platforms: https://github.com/1322monitors/social-monitor-examples
 - Best crypto Twitter monitoring tools (roundup): https://1322.io/blog/best-crypto-twitter-monitoring-tools
 
 MIT licensed.
